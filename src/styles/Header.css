@@ -1,0 +1,14 @@
+.Header{
+    background-color: black;
+    display: flex;
+   
+}
+.header_data{
+    transition: color 0.3s, transform 0.3s;
+
+  }
+.header_data:hover {
+    color: salmon; 
+    transform: scale(1.1); 
+    cursor: pointer;
+  }

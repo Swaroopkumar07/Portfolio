@@ -1,0 +1,19 @@
+.bottombar{
+    background-color:#0A0C15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.bottombar .MuiSvgIcon-root {
+    margin: 10px; 
+    transition: all 0.3s; 
+    color: #FFFFFF; 
+    box-shadow: none;
+  }
+  .bottombar .MuiSvgIcon-root:hover {
+    color: salmon; 
+    box-shadow: 2px 2px 5px  salmon;
+  }
+

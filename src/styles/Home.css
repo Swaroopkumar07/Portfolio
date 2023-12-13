@@ -1,0 +1,33 @@
+.Home{
+    background-color:#f0f3fa;
+}
+.home_image{
+    border-radius: 30% 70% 42% 58% / 52% 42% 58% 48% ;
+    
+}
+.profile{
+    width: 300px;
+    height: 300px;
+    border-width: 1px solid #121212;
+    border-radius: 30% 70% 42% 58% / 52% 42% 58% 48% ;
+    margin-top: 5%;
+}
+.Home_name{
+    font-size: 30px;
+    font-weight:800;
+    color: #121212;
+    font-family: serif
+
+}
+.Home_matter{
+    font-size: 20px;
+    font-weight:550;
+    color: #121212;
+    font-family: sans-serif;
+}
+.home_content{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+   
+}

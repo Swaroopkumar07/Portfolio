@@ -1,0 +1,15 @@
+.skills{
+    background-color: #ffffff;
+}
+.skills_heading{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.skills_heading:hover{
+    text-decoration: underline;
+    color: tomato; 
+    cursor: pointer;
+
+}
