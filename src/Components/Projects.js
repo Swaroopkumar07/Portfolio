@@ -8,7 +8,7 @@ import NSS from '../Images/NSS.jpg'
 
 export default function Projects() {
   return (
-    <div>
+    <div id='projects'>
       <p className='skills_heading'>Projects</p>
 
       <Carousel autoPlay={true} infiniteLoop={true} interval={3000}>

@@ -4,7 +4,7 @@ import Profile from '../Images/profile.jpg'
 
 export default function Home() {
   return (
-    <div className='Home'>
+    <div className='Home' id='home'>
     <div className='home_image'>
           <img src={Profile} className='profile'></img>
         </div>

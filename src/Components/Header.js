@@ -17,7 +17,7 @@ import '../styles/Header.css'
 
 
 
-const pages = ['Home', 'Skills', 'Projects','Skills','Contact'];
+const pages = ['Home', 'Skills', 'Projects','Contact'];
 
 
 
@@ -101,7 +101,9 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
+                <a key={page} href={`#${page.toLowerCase()}`} style={{ textDecoration: 'none' }}>
                   <Typography textAlign="center">{page}</Typography>
+                  </a>
                 </MenuItem>
               ))}
             </Menu>
@@ -126,6 +128,7 @@ function ResponsiveAppBar() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
+              <a key={page} href={`#${page.toLowerCase()}`} style={{ textDecoration: 'none' }}>
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
@@ -138,6 +141,7 @@ function ResponsiveAppBar() {
               >
                 {page}
               </Button>
+              </a>
             ))}
           </Box>
 

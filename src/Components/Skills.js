@@ -44,18 +44,7 @@ const skillsdata = [
         skillmatter: '5'
     },
 ];
-const labels = {
-    0.5: 'Useless',
-    1: 'Useless+',
-    1.5: 'Poor',
-    2: 'Poor+',
-    2.5: 'Ok',
-    3: 'Ok+',
-    3.5: 'Good',
-    4: 'Good+',
-    4.5: 'Excellent',
-    5: 'Excellent+',
-};
+
 
 const Accordion = styled((props) => (
     <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -101,7 +90,7 @@ export default function CustomizedAccordions() {
     };
 
     return (
-        <div className='skills'>
+        <div className='skills' id='skills'>
             <p className='skills_heading'>Skills</p>
             {skillsdata.map((skill, index) => (
                 <Accordion
@@ -128,7 +117,7 @@ export default function CustomizedAccordions() {
                                 precision={0.5}
                                 emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
                             />
-                            <Box sx={{ ml: 2 }}>{labels[skill.skillmatter]}</Box>
+                            
                         </Box>
                     </AccordionDetails>
                 </Accordion>

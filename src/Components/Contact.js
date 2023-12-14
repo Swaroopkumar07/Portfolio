@@ -15,7 +15,7 @@ const emailadress = 'painamswaroopkumar@gmail.com'
 
 export default function () {
   return (
-    <div>
+    <div id='contact'>
       <p className='skills_heading'>Contact</p>
 
 
